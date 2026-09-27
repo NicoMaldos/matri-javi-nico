@@ -134,11 +134,8 @@
 <!-- Top Label -->
 <div class="relative z-10 pt-4 sm:pt-6">
 
-<div class="w-12 h-px bg-champagne mx-auto mt-3"></div>
+<div class="w-12 h-px mx-auto mt-3"></div>
 </div>
-<!-- Centerpiece: Faithful Silhouette of Labrador Dog -->
-<div class="relative z-10 my-6 sm:my-8 flex flex-col items-center max-w-xs sm:max-w-sm" data-purpose="dog-illustration">
-<!-- High detail vector recreation inspired by save the date graphic -->
 
 </div>
 <!-- Couple Names & Location -->
@@ -181,18 +178,18 @@
 <!-- END: HeroSection -->
 <!-- BEGIN: LoveStoryPhoto -->
 <section class="reveal-section py-16 px-6 max-w-xl mx-auto text-center active" data-purpose="couple-photo-message">
+  <div class="mb-8 space-y-3">
+  <p class="font-serif text-xl sm:text-2xl italic leading-relaxed text-navy">
+          ​Has estado en cada momento importante, y este no podía ser la excepción. Queremos que seas parte de este lindo día . Con todo amiguitos !!!
+        </p>
+
+  </div>
 <div class="relative p-2 sm:p-3 bg-white border border-parchment-border rounded-3xl shadow-md">
-<div class="overflow-hidden rounded-2xl relative aspect-[4/5] sm:aspect-[3/4]">
-<img alt="Javi y Nico" class="w-full h-full object-cover object-center grayscale-[20%] hover:scale-105 transition-transform duration-700 ease-out" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrMRdvRvQeGiH-IsROYWAdEtE3_H9D8SeICndTNPXuOt6NUYZo7AQOSw_ljHra7qbxUyTt_2gQdei82ZOCAN-1IlFNFiMz6Wt8yVEsWWC4Q7jlG6vNri_rGqsyfUrLv7-Kha42D_IVGz0pTAGUIJzOLYpJlwA2BXqDlBFn2QuojDb_tZFH-7eX8D3-zgenh-g9yL6wsyAIJ04L4xFYvjHaGzP0J4e0PrTAKTCddFyxtQfWmr7lONRu">
+<div class="overflow-hidden rounded-2xl relative aspect-[16/9]">
+<img alt="Javi y Nico" class="w-full h-full object-contain object-center grayscale-[20%]" loading="lazy" src="nico_javi.jpeg">
 <!-- Inner subtle frame overlay -->
 <div class="absolute inset-3 border border-white/40 pointer-events-none rounded-xl"></div>
 </div>
-</div>
-<div class="mt-8 space-y-3">
-<p class="font-script text-3xl sm:text-4xl text-navy">
-        "Con todo amiguitos"
-      </p>
-
 </div>
 </section>
 <!-- END: LoveStoryPhoto -->
@@ -303,10 +300,11 @@
         </h2>
 <div class="w-10 h-0.5 bg-champagne mx-auto mt-2"></div>
 <p class="text-xs sm:text-sm text-navy-soft mt-3 font-medium">
-          Por favor, confirma tu asistencia antes del <strong>15 de Noviembre de 2026</strong>.
+          Por favor, confirma tu asistencia lo antes posible.
         </p>
 </div>
 <!-- Interactive Guest Count Selector -->
+<form class="space-y-6" id="rsvp-form" onsubmit="handleFormSubmit(event)">
 <div class="bg-white p-4 rounded-xl border border-parchment-border mb-6 flex items-center justify-between shadow-sm">
 <span class="text-xs sm:text-sm font-medium text-navy">¿Cuántas personas confirmas?</span>
 <div aria-label="Cantidad de invitados" class="inline-flex rounded-lg p-1 bg-parchment border border-parchment-border" role="group">
@@ -319,7 +317,6 @@
 </div>
 </div>
 <!-- RSVP Form -->
-<form class="space-y-6" id="rsvp-form" onsubmit="handleFormSubmit(event)">
 <!-- Guest 1 Card -->
 <div class="bg-white border border-parchment-border rounded-2xl p-6 shadow-sm space-y-4">
 <div class="flex items-center justify-between border-b border-parchment-border/60 pb-2">
@@ -352,8 +349,9 @@
 <div>
 <label class="block text-xs font-semibold uppercase tracking-wider text-navy mb-1" for="g1-diet">Opción de Menú</label>
 <select class="w-full rounded-lg border-parchment-border text-sm focus:border-navy focus:ring-navy" id="g1-diet" name="g1_diet" onchange="toggleOtherDietInput(1)">
-<option value="Tradicional">Tradicional</option>
+<option value="Omnívoro">Omnívoro</option>
 <option value="Vegetariano">Vegetariano</option>
+<option value="Pecetariano">Pecetariano</option>
 <option value="Vegano">Vegano</option>
 <option value="Celiaco">Celíaco (Sin Gluten)</option>
 <option value="Otro">Otro / Alergias específicas</option>
@@ -397,8 +395,9 @@
 <div>
 <label class="block text-xs font-semibold uppercase tracking-wider text-navy mb-1" for="g2-diet">Opción de Menú (Acompañante)</label>
 <select class="w-full rounded-lg border-parchment-border text-sm focus:border-navy focus:ring-navy" id="g2-diet" name="g2_diet" onchange="toggleOtherDietInput(2)">
-<option value="Tradicional">Tradicional</option>
+<option value="Omnívoro">Omnívoro</option>
 <option value="Vegetariano">Vegetariano</option>
+<option value="Pecetariano">Pecetariano</option>
 <option value="Vegano">Vegano</option>
 <option value="Celiaco">Celíaco (Sin Gluten)</option>
 <option value="Otro">Otro / Alergias específicas</option>
@@ -459,7 +458,7 @@
 </svg>
 <div class="relative z-10 max-w-sm mx-auto space-y-3">
 <p class="font-script text-3xl sm:text-4xl text-navy">
-        ¡Los esperamos con ansias!
+        ¡Los esperamos con todo!
       </p>
 <p class="font-serif text-sm tracking-widest uppercase text-navy-soft">
         Javi &amp; Nico</p>

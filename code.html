@@ -1,0 +1,639 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="es" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Javi &amp; Nico | Matrimonio 18.12.2026</title>
+<!-- Google Fonts: Cormorant Garamond, Great Vibes & Montserrat -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Great+Vibes&amp;family=Montserrat:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              DEFAULT: '#1B263B',
+              dark: '#0D1B2A',
+              soft: '#415A77',
+              light: '#778DA9'
+            },
+            parchment: {
+              DEFAULT: '#FBF9F5',
+              card: '#F5F2EB',
+              border: '#E3DDD2'
+            },
+            champagne: '#C5A880',
+            gold: '#B89768'
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            script: ['"Great Vibes"', 'cursive'],
+            sans: ['"Montserrat"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom Styles: Texture & Visual Accents -->
+<style data-purpose="custom-decorations">
+    /* Subtle fine paper texture */
+    .bg-paper {
+      background-color: #FBF9F5;
+      background-image: radial-gradient(#1B263B 0.35px, transparent 0.35px);
+      background-size: 24px 24px;
+    }
+
+    /* Scroll reveal transitions */
+    .reveal-section {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .reveal-section.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Botanical corners */
+    .botanical-corner-tl {
+      position: absolute;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      width: 140px;
+      height: 140px;
+    }
+    .botanical-corner-tr {
+      position: absolute;
+      top: 0;
+      right: 0;
+      pointer-events: none;
+      width: 140px;
+      height: 140px;
+      transform: scaleX(-1);
+    }
+    .botanical-corner-bl {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      pointer-events: none;
+      width: 140px;
+      height: 140px;
+      transform: scaleY(-1);
+    }
+    .botanical-corner-br {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      pointer-events: none;
+      width: 140px;
+      height: 140px;
+      transform: scale(-1, -1);
+    }
+    @media (min-width: 640px) {
+      .botanical-corner-tl, .botanical-corner-tr, .botanical-corner-bl, .botanical-corner-br {
+        width: 190px;
+        height: 190px;
+      }
+    }
+  </style>
+</head>
+<body class="bg-paper text-navy font-sans antialiased selection:bg-navy selection:text-parchment overflow-x-hidden">
+<!-- BEGIN: HeroSection -->
+<header class="relative min-h-[92vh] flex flex-col items-center justify-between px-6 py-12 sm:py-16 text-center overflow-hidden border-b border-parchment-border/60" data-purpose="hero-save-the-date">
+<!-- SVG Botanical Foliage Top-Left -->
+<svg aria-hidden="true" class="botanical-corner-tl opacity-85 text-navy fill-none stroke-current stroke-[1.2]" viewBox="0 0 160 160">
+<path d="M10,150 C30,120 65,70 145,15" stroke-linecap="round"></path>
+<path d="M45,108 C35,102 28,88 38,78 C48,70 58,85 45,108 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M72,83 C64,74 58,58 72,50 C82,44 88,60 72,83 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M102,57 C94,46 90,32 104,24 C116,18 120,34 102,57 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M55,95 C68,98 80,108 76,120 C70,130 58,122 55,95 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M84,68 C98,70 110,80 106,94 C99,102 88,94 84,68 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M116,42 C130,44 140,54 138,66 C130,74 120,66 116,42 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M15,10 C18,35 25,75 5,115" stroke-dasharray="2 3"></path>
+<path d="M10,25 C18,22 28,30 20,38 Z"></path>
+<path d="M14,50 C24,46 32,56 22,64 Z"></path>
+<path d="M10,75 C20,72 26,82 16,90 Z"></path>
+</svg>
+<!-- SVG Botanical Foliage Top-Right -->
+<svg aria-hidden="true" class="botanical-corner-tr opacity-85 text-navy fill-none stroke-current stroke-[1.2]" viewBox="0 0 160 160">
+<path d="M10,150 C30,120 65,70 145,15" stroke-linecap="round"></path>
+<path d="M45,108 C35,102 28,88 38,78 C48,70 58,85 45,108 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M72,83 C64,74 58,58 72,50 C82,44 88,60 72,83 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M102,57 C94,46 90,32 104,24 C116,18 120,34 102,57 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M55,95 C68,98 80,108 76,120 C70,130 58,122 55,95 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M84,68 C98,70 110,80 106,94 C99,102 88,94 84,68 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M116,42 C130,44 140,54 138,66 C130,74 120,66 116,42 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M15,10 C18,35 25,75 5,115" stroke-dasharray="2 3"></path>
+<path d="M10,25 C18,22 28,30 20,38 Z"></path>
+<path d="M14,50 C24,46 32,56 22,64 Z"></path>
+<path d="M10,75 C20,72 26,82 16,90 Z"></path>
+</svg>
+<!-- Top Label -->
+<div class="relative z-10 pt-4 sm:pt-6">
+
+<div class="w-12 h-px bg-champagne mx-auto mt-3"></div>
+</div>
+<!-- Centerpiece: Faithful Silhouette of Labrador Dog -->
+<div class="relative z-10 my-6 sm:my-8 flex flex-col items-center max-w-xs sm:max-w-sm" data-purpose="dog-illustration">
+<!-- High detail vector recreation inspired by save the date graphic -->
+
+</div>
+<!-- Couple Names & Location -->
+<div class="relative z-10 space-y-3 pb-6 sm:pb-8">
+<h1 class="font-script text-6xl sm:text-7xl md:text-8xl text-navy font-normal tracking-wide drop-shadow-sm py-1">
+        Javi &amp; Nico
+      </h1>
+<p class="font-serif text-lg sm:text-xl md:text-2xl uppercase tracking-[0.24em] font-semibold text-navy mt-2">
+        18 Diciembre 2026
+      </p>
+<p class="font-serif text-base sm:text-lg tracking-[0.18em] text-navy-soft italic">
+        Casona Chicureo
+      </p>
+</div>
+<!-- Countdown Timer Component -->
+<div class="relative z-10 w-full max-w-sm sm:max-w-md mx-auto pt-4" data-purpose="wedding-countdown">
+<div class="bg-white/70 backdrop-blur-sm border border-parchment-border shadow-sm rounded-xl py-4 px-3 flex items-center justify-around text-navy">
+<div class="text-center px-2">
+<span class="font-serif text-2xl sm:text-3xl font-bold block text-navy" id="days">88</span>
+<span class="text-[10px] sm:text-xs uppercase tracking-widest text-navy-soft">Días</span>
+</div>
+<span class="text-champagne font-serif text-xl pb-3">•</span>
+<div class="text-center px-2">
+<span class="font-serif text-2xl sm:text-3xl font-bold block text-navy" id="hours">00</span>
+<span class="text-[10px] sm:text-xs uppercase tracking-widest text-navy-soft">Horas</span>
+</div>
+<span class="text-champagne font-serif text-xl pb-3">•</span>
+<div class="text-center px-2">
+<span class="font-serif text-2xl sm:text-3xl font-bold block text-navy" id="minutes">12</span>
+<span class="text-[10px] sm:text-xs uppercase tracking-widest text-navy-soft">Min</span>
+</div>
+<span class="text-champagne font-serif text-xl pb-3">•</span>
+<div class="text-center px-2">
+<span class="font-serif text-2xl sm:text-3xl font-bold block text-navy" id="seconds">53</span>
+<span class="text-[10px] sm:text-xs uppercase tracking-widest text-navy-soft">Seg</span>
+</div>
+</div>
+</div>
+</header>
+<!-- END: HeroSection -->
+<!-- BEGIN: LoveStoryPhoto -->
+<section class="reveal-section py-16 px-6 max-w-xl mx-auto text-center active" data-purpose="couple-photo-message">
+<div class="relative p-2 sm:p-3 bg-white border border-parchment-border rounded-3xl shadow-md">
+<div class="overflow-hidden rounded-2xl relative aspect-[4/5] sm:aspect-[3/4]">
+<img alt="Javi y Nico" class="w-full h-full object-cover object-center grayscale-[20%] hover:scale-105 transition-transform duration-700 ease-out" loading="lazy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrMRdvRvQeGiH-IsROYWAdEtE3_H9D8SeICndTNPXuOt6NUYZo7AQOSw_ljHra7qbxUyTt_2gQdei82ZOCAN-1IlFNFiMz6Wt8yVEsWWC4Q7jlG6vNri_rGqsyfUrLv7-Kha42D_IVGz0pTAGUIJzOLYpJlwA2BXqDlBFn2QuojDb_tZFH-7eX8D3-zgenh-g9yL6wsyAIJ04L4xFYvjHaGzP0J4e0PrTAKTCddFyxtQfWmr7lONRu">
+<!-- Inner subtle frame overlay -->
+<div class="absolute inset-3 border border-white/40 pointer-events-none rounded-xl"></div>
+</div>
+</div>
+<div class="mt-8 space-y-3">
+<p class="font-script text-3xl sm:text-4xl text-navy">
+        "Con todo amiguitos"
+      </p>
+
+</div>
+</section>
+<!-- END: LoveStoryPhoto -->
+<!-- BEGIN: EventDetails -->
+<section class="reveal-section py-14 px-6 bg-parchment-card/50 border-y border-parchment-border active" data-purpose="schedule-and-location">
+<div class="max-w-xl mx-auto text-center space-y-8">
+<div>
+<p class="font-serif tracking-[0.24em] text-xs sm:text-sm text-navy uppercase font-semibold">
+          Dónde &amp; Cuándo
+        </p>
+<h2 class="font-serif text-3xl sm:text-4xl text-navy mt-1 font-bold">
+          Ceremonia y Celebración
+        </h2>
+<div class="w-10 h-0.5 bg-champagne mx-auto mt-2"></div>
+</div>
+<!-- Detail Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5 text-left">
+<!-- Card 1: Horario -->
+<div class="bg-white p-6 rounded-2xl border border-parchment-border shadow-sm flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-full bg-parchment flex items-center justify-center text-navy mb-4 border border-parchment-border">
+<svg class="w-6 h-6 stroke-current fill-none stroke-[1.5]" viewBox="0 0 24 24">
+<circle cx="12" cy="12" r="9"></circle>
+<polyline points="12 7 12 12 15 15"></polyline>
+</svg>
+</div>
+<h3 class="font-serif text-xl font-bold text-navy">Horario</h3>
+<p class="text-sm text-navy-soft mt-1 font-medium">18:00 hrs — 04:00 hrs</p>
+<p class="text-xs text-navy-light mt-2">Recepción puntual para dar inicio a la ceremonia al atardecer.</p>
+</div>
+<!-- Card 2: Ubicación -->
+<div class="bg-white p-6 rounded-2xl border border-parchment-border shadow-sm flex flex-col items-center text-center">
+<div class="w-12 h-12 rounded-full bg-parchment flex items-center justify-center text-navy mb-4 border border-parchment-border">
+<svg class="w-6 h-6 stroke-current fill-none stroke-[1.5]" viewBox="0 0 24 24">
+<path d="M12 21s-8-7.5-8-12a8 8 0 1 1 16 0c0 4.5-8 12-8 12z"></path>
+<circle cx="12" cy="9" r="2.5"></circle>
+</svg>
+</div>
+<h3 class="font-serif text-xl font-bold text-navy">Casona Chicureo</h3>
+<p class="text-sm text-navy-soft mt-1 font-medium">El Alba 2 Parcela 24, Chicureo</p>
+<p class="text-xs text-navy-light mt-2">Estacionamiento privado disponible dentro del recinto.</p>
+</div>
+</div>
+<!-- Action Buttons for Location & Calendar -->
+<div class="flex flex-col sm:flex-row gap-3 justify-center pt-2">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-navy text-parchment font-serif text-sm tracking-wider uppercase font-semibold hover:bg-navy-dark transition-colors duration-200 shadow" href="https://maps.app.goo.gl/P2PKmaNktE9oz7aQ9" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
+</svg>
+          Ver en Google Maps
+        </a>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-white border border-parchment-border text-navy font-serif text-sm tracking-wider uppercase font-semibold hover:bg-parchment transition-colors duration-200" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Matrimonio+Javi+%26+Nico&amp;dates=20261218T210000Z/20261219T070000Z&amp;details=Celebraci%C3%B3n+de+matrimonio+de+Javi+y+Nico+en+Casona+Chicureo.&amp;location=Casona+Chicureo,+El+Alba+2+Parcela+24,+Chicureo" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 text-navy-soft" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<rect height="18" rx="2" ry="2" width="18" x="3" y="4"></rect>
+<line x1="16" x2="16" y1="2" y2="6"></line>
+<line x1="8" x2="8" y1="2" y2="6"></line>
+<line x1="3" x2="21" y1="10" y2="10"></line>
+</svg>
+          Guardar Fecha
+        </a>
+</div>
+</div>
+</section>
+<!-- END: EventDetails -->
+<!-- BEGIN: GiftRegistry -->
+<section class="reveal-section py-16 px-6 max-w-xl mx-auto text-center active" data-purpose="gift-registry">
+<p class="font-serif tracking-[0.24em] text-xs sm:text-sm text-navy uppercase font-semibold">
+      Lista de Regalos
+    </p>
+<h2 class="font-serif text-3xl sm:text-4xl text-navy mt-1 font-bold">
+      Un Detalle Para Nuestro Hogar
+    </h2>
+<div class="w-10 h-0.5 bg-champagne mx-auto mt-2 mb-4"></div>
+<p class="text-sm sm:text-base text-navy-soft leading-relaxed max-w-md mx-auto mb-8 font-light">
+      Tu presencia en este día tan especial es nuestro mejor regalo. Sin embargo, si deseas tener un presente con nosotros, puedes encontrar nuestra lista en:
+    </p>
+<!-- Gift Registry Box -->
+<div class="bg-white border border-parchment-border rounded-2xl p-6 sm:p-8 shadow-sm relative overflow-hidden">
+<div class="absolute -right-6 -bottom-6 w-24 h-24 bg-parchment rounded-full pointer-events-none opacity-50"></div>
+<div class="flex flex-col items-center">
+<span class="text-xs uppercase tracking-widest text-navy-light font-semibold">Tienda Oficial</span>
+<span class="font-serif text-2xl font-bold text-navy mt-1">Novios París</span>
+<div class="mt-4 py-2 px-5 bg-parchment-card rounded-lg border border-parchment-border">
+<span class="text-xs tracking-wider text-navy-soft uppercase block">Código de Novios</span>
+<span class="font-serif text-xl sm:text-2xl font-bold tracking-widest text-navy">21039659</span>
+</div>
+<a class="mt-6 inline-flex items-center justify-center gap-2 w-full sm:w-auto px-8 py-3.5 rounded-full bg-navy text-parchment font-serif text-sm tracking-widest uppercase font-semibold hover:bg-navy-dark transition-all duration-200 shadow hover:shadow-md" href="https://www.noviosparis.cl/home/couple-catalog/21039659" rel="noopener noreferrer" target="_blank">
+<span class="">Ver Lista en Novios París</span>
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+<polyline points="15 3 21 3 21 9"></polyline>
+<line x1="10" x2="21" y1="14" y2="3"></line>
+</svg>
+</a>
+</div>
+</div>
+</section>
+<!-- END: GiftRegistry -->
+<!-- BEGIN: RsvpSection -->
+<section class="reveal-section py-16 px-6 bg-parchment-card/60 border-t border-parchment-border active" data-purpose="rsvp-form-container" id="rsvp">
+<div class="max-w-xl mx-auto">
+<!-- Section Header -->
+<div class="text-center mb-8">
+<p class="font-serif tracking-[0.24em] text-xs sm:text-sm text-navy uppercase font-semibold">
+          RSVP
+        </p>
+<h2 class="font-serif text-3xl sm:text-4xl text-navy mt-1 font-bold">
+          Confirmación de Asistencia
+        </h2>
+<div class="w-10 h-0.5 bg-champagne mx-auto mt-2"></div>
+<p class="text-xs sm:text-sm text-navy-soft mt-3 font-medium">
+          Por favor, confirma tu asistencia antes del <strong>15 de Noviembre de 2026</strong>.
+        </p>
+</div>
+<!-- Interactive Guest Count Selector -->
+<div class="bg-white p-4 rounded-xl border border-parchment-border mb-6 flex items-center justify-between shadow-sm">
+<span class="text-xs sm:text-sm font-medium text-navy">¿Cuántas personas confirmas?</span>
+<div aria-label="Cantidad de invitados" class="inline-flex rounded-lg p-1 bg-parchment border border-parchment-border" role="group">
+<button class="px-4 py-1.5 text-xs font-semibold rounded-md transition-all duration-200 bg-navy text-parchment shadow-sm" id="btn-guests-1" onclick="setGuestCount(1)" type="button">
+            1 Persona
+          </button>
+<button class="px-4 py-1.5 text-xs font-semibold rounded-md transition-all duration-200 text-navy hover:text-navy-dark" id="btn-guests-2" onclick="setGuestCount(2)" type="button">
+            2 Personas (+1)
+          </button>
+</div>
+</div>
+<!-- RSVP Form -->
+<form class="space-y-6" id="rsvp-form" onsubmit="handleFormSubmit(event)">
+<!-- Guest 1 Card -->
+<div class="bg-white border border-parchment-border rounded-2xl p-6 shadow-sm space-y-4">
+<div class="flex items-center justify-between border-b border-parchment-border/60 pb-2">
+<h3 class="font-serif text-lg font-bold text-navy flex items-center gap-2">
+<span class="w-5 h-5 rounded-full bg-navy text-parchment text-xs flex items-center justify-center font-sans">1</span>
+              Invitado Principal
+            </h3>
+<span class="text-[11px] uppercase tracking-wider text-champagne font-semibold">Obligatorio</span>
+</div>
+<!-- Name -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-navy mb-1" for="g1-name">Nombre Completo *</label>
+<input class="w-full rounded-lg border-parchment-border text-sm focus:border-navy focus:ring-navy placeholder:text-navy-light/60" id="g1-name" name="g1_name" placeholder="Ej: Sofía Valenzuela" required="" type="text">
+</div>
+<!-- Attendance -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-navy mb-2">¿Asistirás? *</label>
+<div class="grid grid-cols-1 gap-2">
+<label class="flex items-center gap-2.5 p-3 rounded-lg border border-parchment-border cursor-pointer hover:bg-parchment/50 transition">
+<input checked="" class="text-navy focus:ring-navy" name="g1_attending" type="radio" value="Si">
+<span class="text-xs sm:text-sm text-navy font-medium">Sí, ¡ahí estaré con toda la energía! 🎉</span>
+</label>
+<label class="flex items-center gap-2.5 p-3 rounded-lg border border-parchment-border cursor-pointer hover:bg-parchment/50 transition">
+<input class="text-navy focus:ring-navy" name="g1_attending" type="radio" value="No">
+<span class="text-xs sm:text-sm text-navy-soft">Lamentablemente no podré ir 🤍</span>
+</label>
+</div>
+</div>
+<!-- Diet Preference -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-navy mb-1" for="g1-diet">Opción de Menú</label>
+<select class="w-full rounded-lg border-parchment-border text-sm focus:border-navy focus:ring-navy" id="g1-diet" name="g1_diet" onchange="toggleOtherDietInput(1)">
+<option value="Tradicional">Tradicional</option>
+<option value="Vegetariano">Vegetariano</option>
+<option value="Vegano">Vegano</option>
+<option value="Celiaco">Celíaco (Sin Gluten)</option>
+<option value="Otro">Otro / Alergias específicas</option>
+</select>
+</div>
+<!-- Conditional Diet Specification -->
+<div class="hidden" id="g1-diet-other-container">
+<label class="block text-xs font-semibold uppercase tracking-wider text-navy mb-1" for="g1-diet-details">Especifica tu restricción alimentaria *</label>
+<input class="w-full rounded-lg border-parchment-border text-sm focus:border-navy focus:ring-navy" id="g1-diet-details" name="g1_diet_details" placeholder="Ej: Alergia a mariscos o nueces" type="text">
+</div>
+</div>
+<!-- Guest 2 Card (Dynamically shown/hidden) -->
+<div class="bg-white border border-parchment-border rounded-2xl p-6 shadow-sm space-y-4 hidden" id="guest-2-section">
+<div class="flex items-center justify-between border-b border-parchment-border/60 pb-2">
+<h3 class="font-serif text-lg font-bold text-navy flex items-center gap-2">
+<span class="w-5 h-5 rounded-full bg-navy text-parchment text-xs flex items-center justify-center font-sans">2</span>
+              Acompañante
+            </h3>
+<span class="text-[11px] uppercase tracking-wider text-champagne font-semibold">+1</span>
+</div>
+<!-- Name -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-navy mb-1" for="g2-name">Nombre Completo del Acompañante *</label>
+<input class="w-full rounded-lg border-parchment-border text-sm focus:border-navy focus:ring-navy placeholder:text-navy-light/60" id="g2-name" name="g2_name" placeholder="Ej: Camilo Morales" type="text">
+</div>
+<!-- Attendance -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-navy mb-2">¿Asistirá? *</label>
+<div class="grid grid-cols-1 gap-2">
+<label class="flex items-center gap-2.5 p-3 rounded-lg border border-parchment-border cursor-pointer hover:bg-parchment/50 transition">
+<input checked="" class="text-navy focus:ring-navy" name="g2_attending" type="radio" value="Si">
+<span class="text-xs sm:text-sm text-navy font-medium">Sí, ¡ahí estará celebrando! 🎉</span>
+</label>
+<label class="flex items-center gap-2.5 p-3 rounded-lg border border-parchment-border cursor-pointer hover:bg-parchment/50 transition">
+<input class="text-navy focus:ring-navy" name="g2_attending" type="radio" value="No">
+<span class="text-xs sm:text-sm text-navy-soft">Lamentablemente no asistirá 🤍</span>
+</label>
+</div>
+</div>
+<!-- Diet Preference -->
+<div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-navy mb-1" for="g2-diet">Opción de Menú (Acompañante)</label>
+<select class="w-full rounded-lg border-parchment-border text-sm focus:border-navy focus:ring-navy" id="g2-diet" name="g2_diet" onchange="toggleOtherDietInput(2)">
+<option value="Tradicional">Tradicional</option>
+<option value="Vegetariano">Vegetariano</option>
+<option value="Vegano">Vegano</option>
+<option value="Celiaco">Celíaco (Sin Gluten)</option>
+<option value="Otro">Otro / Alergias específicas</option>
+</select>
+</div>
+<!-- Conditional Diet Specification -->
+<div class="hidden" id="g2-diet-other-container">
+<label class="block text-xs font-semibold uppercase tracking-wider text-navy mb-1" for="g2-diet-details">Especifica su restricción alimentaria *</label>
+<input class="w-full rounded-lg border-parchment-border text-sm focus:border-navy focus:ring-navy" id="g2-diet-details" name="g2_diet_details" placeholder="Ej: Intolerancia severa a la lactosa" type="text">
+</div>
+</div>
+<!-- Submit Button -->
+<button class="w-full py-4 px-6 rounded-full bg-navy text-parchment font-serif text-base uppercase tracking-[0.2em] font-semibold hover:bg-navy-dark transition-all duration-200 shadow-md flex items-center justify-center gap-2" id="submit-btn" type="submit">
+<span id="btn-text" class="">Confirmar Asistencia</span>
+<svg class="hidden animate-spin h-5 w-5 text-parchment" fill="none" id="loading-spinner" viewBox="0 0 24 24">
+<circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+<path class="opacity-75" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" fill="currentColor"></path>
+</svg>
+</button>
+</form>
+<!-- Success / Confirmation Notice -->
+<div class="hidden mt-6 p-8 bg-white border-2 border-champagne rounded-2xl shadow-lg text-center space-y-4" id="success-banner">
+<div class="w-14 h-14 bg-champagne/20 text-navy rounded-full mx-auto flex items-center justify-center">
+<svg class="w-7 h-7 stroke-current fill-none stroke-2" viewBox="0 0 24 24">
+<polyline points="20 6 9 17 4 12"></polyline>
+</svg>
+</div>
+<h3 class="font-serif text-2xl font-bold text-navy">¡Muchas Gracias!</h3>
+<p class="text-sm sm:text-base text-navy-soft leading-relaxed">
+          Tu confirmación ha sido recibida con éxito. Javi y Nico están muy felices de contar contigo para celebrar este gran día.
+        </p>
+<p class="font-script text-2xl text-navy">¡Nos vemos el 18 de Diciembre!</p>
+</div>
+</div>
+</section>
+<!-- END: RsvpSection -->
+<!-- BEGIN: Footer -->
+<footer class="relative py-16 px-6 text-center overflow-hidden" data-purpose="site-footer">
+<!-- SVG Botanical Foliage Bottom-Left -->
+<svg aria-hidden="true" class="botanical-corner-bl opacity-80 text-navy fill-none stroke-current stroke-[1.2]" viewBox="0 0 160 160">
+<path d="M10,150 C30,120 65,70 145,15" stroke-linecap="round"></path>
+<path d="M45,108 C35,102 28,88 38,78 C48,70 58,85 45,108 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M72,83 C64,74 58,58 72,50 C82,44 88,60 72,83 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M102,57 C94,46 90,32 104,24 C116,18 120,34 102,57 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M55,95 C68,98 80,108 76,120 C70,130 58,122 55,95 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M84,68 C98,70 110,80 106,94 C99,102 88,94 84,68 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M116,42 C130,44 140,54 138,66 C130,74 120,66 116,42 Z" fill="currentColor" fill-opacity="0.06"></path>
+</svg>
+<!-- SVG Botanical Foliage Bottom-Right -->
+<svg aria-hidden="true" class="botanical-corner-br opacity-80 text-navy fill-none stroke-current stroke-[1.2]" viewBox="0 0 160 160">
+<path d="M10,150 C30,120 65,70 145,15" stroke-linecap="round"></path>
+<path d="M45,108 C35,102 28,88 38,78 C48,70 58,85 45,108 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M72,83 C64,74 58,58 72,50 C82,44 88,60 72,83 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M102,57 C94,46 90,32 104,24 C116,18 120,34 102,57 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M55,95 C68,98 80,108 76,120 C70,130 58,122 55,95 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M84,68 C98,70 110,80 106,94 C99,102 88,94 84,68 Z" fill="currentColor" fill-opacity="0.06"></path>
+<path d="M116,42 C130,44 140,54 138,66 C130,74 120,66 116,42 Z" fill="currentColor" fill-opacity="0.06"></path>
+</svg>
+<div class="relative z-10 max-w-sm mx-auto space-y-3">
+<p class="font-script text-3xl sm:text-4xl text-navy">
+        ¡Los esperamos con ansias!
+      </p>
+<p class="font-serif text-sm tracking-widest uppercase text-navy-soft">
+        Javi &amp; Nico</p>
+<div class="w-8 h-px bg-champagne mx-auto my-3"></div>
+<p class="text-[11px] text-navy-light uppercase tracking-wider">
+        18.12.2026 • Casona Chicureo
+      </p>
+</div>
+</footer>
+<!-- END: Footer -->
+<!-- BEGIN: InteractiveScripts -->
+<!-- Script for Countdown Timer -->
+<script data-purpose="countdown-logic">
+    (function initCountdown() {
+      // Target: Dec 18, 2026 at 18:00 (Chile Time approx GMT-3)
+      const targetDate = new Date('2026-12-18T18:00:00-03:00').getTime();
+
+      function updateTimer() {
+        const now = new Date().getTime();
+        const difference = targetDate - now;
+
+        if (difference > 0) {
+          const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+          const elDays = document.getElementById('days');
+          const elHours = document.getElementById('hours');
+          const elMinutes = document.getElementById('minutes');
+          const elSeconds = document.getElementById('seconds');
+
+          if (elDays) elDays.innerText = String(days).padStart(2, '0');
+          if (elHours) elHours.innerText = String(hours).padStart(2, '0');
+          if (elMinutes) elMinutes.innerText = String(minutes).padStart(2, '0');
+          if (elSeconds) elSeconds.innerText = String(seconds).padStart(2, '0');
+        }
+      }
+
+      updateTimer();
+      setInterval(updateTimer, 1000);
+    })();
+  </script>
+<!-- Script for Guest Count URL Detection & Form Toggle -->
+<script data-purpose="guest-count-and-diet-logic">
+    let currentGuestCount = 1;
+
+    function setGuestCount(count) {
+      currentGuestCount = count;
+      const guest2Section = document.getElementById('guest-2-section');
+      const g2NameInput = document.getElementById('g2-name');
+      const btn1 = document.getElementById('btn-guests-1');
+      const btn2 = document.getElementById('btn-guests-2');
+
+      if (count === 2) {
+        guest2Section.classList.remove('hidden');
+        g2NameInput.setAttribute('required', 'required');
+        
+        btn2.className = "px-4 py-1.5 text-xs font-semibold rounded-md transition-all duration-200 bg-navy text-parchment shadow-sm";
+        btn1.className = "px-4 py-1.5 text-xs font-semibold rounded-md transition-all duration-200 text-navy hover:text-navy-dark";
+      } else {
+        guest2Section.classList.add('hidden');
+        g2NameInput.removeAttribute('required');
+
+        btn1.className = "px-4 py-1.5 text-xs font-semibold rounded-md transition-all duration-200 bg-navy text-parchment shadow-sm";
+        btn2.className = "px-4 py-1.5 text-xs font-semibold rounded-md transition-all duration-200 text-navy hover:text-navy-dark";
+      }
+    }
+
+    // Toggle custom restriction input field when "Otro" is picked
+    function toggleOtherDietInput(guestNumber) {
+      const select = document.getElementById(`g${guestNumber}-diet`);
+      const container = document.getElementById(`g${guestNumber}-diet-other-container`);
+      const input = document.getElementById(`g${guestNumber}-diet-details`);
+
+      if (select.value === 'Otro') {
+        container.classList.remove('hidden');
+        input.setAttribute('required', 'required');
+        input.focus();
+      } else {
+        container.classList.add('hidden');
+        input.removeAttribute('required');
+      }
+    }
+
+    // Read URL params automatically on load: ?guests=2 or ?plus_one=true
+    window.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const guestsParam = urlParams.get('guests');
+      const plusOneParam = urlParams.get('plus_one');
+
+      if (guestsParam === '2' || plusOneParam === 'true' || plusOneParam === '1') {
+        setGuestCount(2);
+      } else {
+        setGuestCount(1);
+      }
+    });
+  </script>
+<!-- Script for RSVP Submission & Backend webhook connector -->
+<script data-purpose="form-submission-handler">
+    // Optional Google Apps Script or Webhook URL for Google Sheets RSVP collection:
+    const POST_URL = "https://script.google.com/macros/s/AKfycbyS_S378luQw5slqY2IV6uS3T8pEtWnM3cFLXojvf1a9U8hlcJZ7lYvw3Uh5_KCpsez/exec";
+
+    async function handleFormSubmit(event) {
+      event.preventDefault();
+
+      if (!POST_URL || POST_URL.includes('REPLACE_WITH_YOUR_EXEC_ID')) {
+        alert('La conexión con Google Sheets todavía no está configurada.');
+        return;
+      }
+
+      const form = document.getElementById('rsvp-form');
+      const submitBtn = document.getElementById('submit-btn');
+      const btnText = document.getElementById('btn-text');
+      const loadingSpinner = document.getElementById('loading-spinner');
+      const successBanner = document.getElementById('success-banner');
+
+      // Loading state
+      submitBtn.disabled = true;
+      btnText.innerText = "Enviando confirmación...";
+      loadingSpinner.classList.remove('hidden');
+
+      // Extract Form Data
+      const formData = new FormData(form);
+      formData.append('guestCount', currentGuestCount);
+      formData.append('timestamp', new Date().toISOString());
+
+      try {
+        await fetch(POST_URL, {
+          method: 'POST',
+          body: new URLSearchParams(formData),
+          mode: 'no-cors'
+        });
+
+        // Display Success State
+        form.classList.add('hidden');
+        successBanner.classList.remove('hidden');
+        successBanner.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } catch (error) {
+        console.error("Error al enviar RSVP:", error);
+        alert('No se pudo enviar tu confirmación. Revisa tu conexión e inténtalo nuevamente.');
+      } finally {
+        submitBtn.disabled = false;
+        loadingSpinner.classList.add('hidden');
+        btnText.innerText = 'Confirmar Asistencia';
+      }
+    }
+  </script>
+<!-- Script for Scroll Animations -->
+<script data-purpose="scroll-animations">
+    document.addEventListener('DOMContentLoaded', () => {
+      const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.12
+      };
+
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            obs.unobserve(entry.target);
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('.reveal-section').forEach(section => {
+        observer.observe(section);
+      });
+    });
+  </script>
+<!-- END: InteractiveScripts -->
+
+
+
+
+</body></html>
